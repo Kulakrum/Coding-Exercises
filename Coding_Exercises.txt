@@ -1,0 +1,171 @@
+change.py
+
+Create a program, change.py, that takes 4 arguments that correspond to the number of quarters, dimes, nickels, and pennies, respectively.  
+Calculate the total value of that change, 
+and print "The total value of your change is $x" where x is equal to the total value.
+
+
+luke.py
+
+Create a program, luke.py, using the following dictionary:
+
+relations = {'Darth Vader':'father', 'Leia':'sister', 'Han':'brother in law', 'R2D2':'droid', 'Rey':'Padawan', 'Tatooine':'homeworld'}
+
+The program will take one argument, corresponding to one of the relations’ keys.  The program will print out the statement:
+
+	Luke, I am your x
+
+	Where x = the relationship.  
+For example, if the argument is Leia, it should print ‘Luke, I am your sister’
+If the key is ‘Darth Vader’ you should instead print “No, I am your father” 
+
+
+temp.py
+
+Create a program that takes a Celsius temperature and converts it to Fahrenheit (Fahrenheit = 9/5 Celsius + 32).  
+It will then print  "The temperature is X degrees Fahrenheit." where X is the Fahrenheit value.  X also must be to two decimal places.
+
+
+max3.py
+
+Create a program, max3.py, that has a function that takes three arguments.  The program will then print out the highest of the three values.
+
+
+username.py
+
+Create a function that takes as arguments a first and last name and creates a username.  
+The username will be the first letter of the first name in lowercase, the last 7 of the last name in lowercase, 
+and the total number of characters in the first and last names.  
+For example, Eastern University would be 'eversity17'.
+
+The program should print "Your username is x" where x is the username.
+
+
+
+mintosec.py
+
+Create a program, mintosec.py, that takes one integer argument representing a number of minutes.  
+The program will convert the argument to the corresponding number of seconds, and print that value out.
+
+
+array.py
+
+Create a program called array.py that has a function that takes four integer arguments.  
+Those arguments should be put into an Numpy array.  The function will have two print statements.  
+The first will print the type of the array you create (which should be <class ‘numpy.ndarray’>).  
+The second will print the sum of the four items in your array.  
+
+
+capCount.py
+
+Create a program called capCount.py that has a function that takes in a string 
+and prints the number of capital letters in it.  
+
+
+countVowels.py
+
+Create a program called countVowels.py that has a function that takes in an argument 
+and prints the number of vowels in the string.  
+It should work for both lowercase and uppercase vowels.
+
+
+digits.py
+
+Create a program that takes a number and prints the number of digits comprising that number.  
+This should work for any decimal 
+
+
+gpacalc.py
+
+Use the following dictionary to complete this assignment:
+
+{'A':4.0, 'A-':3.66, 'B+':3.33, 'B':3.0, 'B-':2.66,
+'C+':2.33, 'C':2.0, 'C-':1.66, 'D+':1.33, 'D':1.00, 'D-':.66, 'F':0.00}
+
+Create a program, gpacalc.py, that takes four letter grade arguments 
+and prints out the corresponding GPA, to two decimals.  
+Your program should accept both upper-case and lower-case arguments.
+
+
+quadratic.py
+
+Create a program, quadratic.py, that takes three arguments 
+that correspond to the quadratic formula's a, b, and c, 
+and finds the positive and negative root values.  
+The program should print "The solutions are root1 and root2" 
+
+
+inrange.py
+
+Create a program inrange.py that has a function that takes one integer argument.  
+The function will print a list of all values between 5000 and 8000 
+that is divisible by (1) the integer argument, 
+and (2) the argument + 4.
+
+
+longest.py
+
+Create a program, longest.py, that has a function that takes one string argument 
+and prints a sentence indicating the longest word in that string.  
+If there is more than one word print only the first.  Your print statement should read:
+
+	The longest word is x
+
+	Where x = the longest word
+	
+palindrome.py
+
+Create a program, palindrome.py, that has a function that takes one string argument 
+and prints a sentence indicating if the text is a palindrome.  
+The function should consider only the alphanumeric characters in the string, 
+and not depend on capitalization, punctuation, or whitespace.
+
+	If your string is a palindrome it should print:
+
+	It’s a palindrome!
+
+	If it is not a palindrome, it should print:
+
+	It’s not a palindrome!
+	
+presidents.py
+
+For this assignment, use the president_heights.csv file found in the Brightspace module. 
+You *WILL NOT NEED TO SUBMIT THE FILE TO CODEGRADE*
+Create a program, presidents.py, that takes two arguments.  
+These arguments will correspond to the start and stop of a slice, respectively.  
+It will slice the heights column in the president_heights.csv files.  
+Then print off the average height, rounded to two decimals, of the selected presidents in the following form:
+
+The average height of presidents number x to y is z
+
+	Where:
+x = start of the slice
+y = end of the slice
+z = calculated average
+
+randdf.py
+
+Create a program called randdf.py that has a function 
+that takes two integer arguments and prints a Pandas dataframe.  
+The two arguments will correspond to the number of rows and number of columns,respectively.  
+The dataframe should be filled with random integers from 0 to 100.  
+Set your random seed to 56. 
+
+
+reallyrandom.py
+
+Create program called reallyrandom.py that has a function that takes in three arguments and prints one integer.  Your random seed should be set to 42.
+The first argument should correspond to the size of a np.randint that has values from 0 to 10.  
+The second is an integer that you will multiply the randint by.  
+The third argument is a value you will index the result of the multiplication by. 
+You will print the integer that was indexed as ‘Your random value is x’ where x = the result of the indexing.
+The program should not crash if the third value is larger than the first.
+Example:
+
+python3 reallyrandom.py 59 2 7 
+
+Should generate the following:
+
+Your random value is 12
+

@@ -1,0 +1,60 @@
+Create a program called classname.py.  
+The program should define a class called person that has one method called hello, 
+and one attribute called name, which represents the name of the person.
+The hello method should print the following string to the screen:
+
+‘My name is ____ and I am a _____’
+
+where:
+The first blank should be the name attribute
+The second blank should be the name of the class
+
+After defining the class, there are three things you must do:
+Instantiate an object of the class
+Run the hello method of the instantiated object
+     (e.g., Greg.hello())
+For grading purposes, you must also print the name of the class so I can be sure you’ve created a class
+     (The expected output is <class ‘__main__.person’>)
+	 
+	 
+
+Use the german_credit_data.csv file to complete the following assignment. 
+Create a file, german.py, that loads the .csv file 
+and runs a regression predicting credit amount from age and duration, in that order.  
+Add a constant using sm.add_constant(data).  
+You will need to rename the column 'Credit amount' and should change it to 'Credit_amount'.  
+Note: you will not need to upload the .csv to CodeGrade because I have pre-loaded it.
+Then, print the parameters and R-squared to 2 decimals using
+
+print(model.params.round(2))
+print(model.rsquared.round(2))
+
+
+
+Use the fastfood.csv file to complete the following assignment. 
+Create a file, fastfood.py, that loads the .csv file and runs a regression predicting calories from total_fat, sat_fat, cholesterol, and sodium, in that order.  
+Add a constant using sm.add_constant(data).  
+Note: you will not need to upload the .csv to CodeGrade because I have pre-loaded it.
+Then, print the following to two decimals
+
+	print(model.mse_total.round(2))
+	print(model.rsquared.round(2))
+        print(model.params.round(2))
+        print(model.pvalues.round(2))
+		
+		
+
+Use the sacramento.csv file to complete the following assignment.  
+Create a file, sacramento.py, that loads the .csv file and runs a logistic regression.  
+The regression should predict whether or not a house has 1 or more than one bathroom based on beds, sqft, and price, in that order.  
+You will need to create a new variable from baths, and it should make it such that those observations of 1 bath correspond to a value of 0,
+and those with more than 1 bath correspond to a 1.
+Make sure to add a constant using sm.add_constant(X)
+Your file should print the results in this way:
+
+	print(mod.params.round(2))
+        print(mod.pvalues.round(2))
+        print('The smallest p-value is for sqft')
+		
+		
+
